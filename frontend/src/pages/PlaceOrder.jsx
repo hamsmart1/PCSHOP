@@ -132,7 +132,7 @@ const PlaceOrder = () => {
             <div className='flex flex-col gap-4 w-full sm:max-w-[480px]'>
 
                 <div className='text-xl sm:text-2xl my-3'>
-                    <Title text1={'DELIVERY'} text2={'INFORMATION'} />
+                    <Title text1={'ข้อมูล'} text2={'การจัดส่ง'} />
                 </div>
                 <div className='flex gap-3'>
                     <input required onChange={onChangeHandler} name='firstName' value={formData.firstName} className='border border-gray-300 rounded py-1.5 px-3.5 w-full' type="text" placeholder='First name' />
@@ -184,7 +184,7 @@ const PlaceOrder = () => {
   >
     <p className={`min-w-3.5 h-3.5 border rounded-full ${method === 'razorpay' ? 'bg-green-400' : ''}`}></p>
     <img className="h-5 mx-4" src={assets.razorpay_logo} alt="Razorpay" />
-    <p className="text-sm text-gray-500">ชำระเงินผ่าน Razorpay</p>
+    <p className="text-sm text-gray-500">ชำระเงินผ่าน Promptpay</p>
   </div>
 
   {/* COD Option */}
